@@ -1,0 +1,6 @@
+
+[Files]
+InputFile=C:\AL500\Catalog\Convertin.KOPIOIDUT.BIB
+INIFile=\\ad.helsinki.fi\dfs\grp\kk\tiimi\usemarcon\kyril2latinma21\kyril2latinma21.ini
+USEMARCON=\\ad.helsinki.fi\dfs\grp\kk\tiimi\usemarcon\usemarcon.exe
+OutputFile=C:\AL500\Catalog\Convertout.konvertoidut.bib
