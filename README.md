@@ -12,12 +12,11 @@ Kopioi konversiopaketti päätteellesi "Download ZIP" -painikkeesta. Pura pakett
 
 Luetteloi tietue:
 - Kirjoitusjärjestelmä merkitään kenttään 066 ## $c (N)Q
-- Kyrilliset tiedot tallennetaan 880-kenttiin
+- Kyrilliset tiedot tallennetaan 880-kenttiin:
 	* 880 on toistettava kenttä
 	* 880 kentän indikaattorit ovat samat kuin ”tavallisissa” kentässä
 	* 880 kentän osakentässä ‡6 viitataan ”tavalliseen” kenttään (020-700)
 	* ”tavallisen” kentän jälkeen merkitään 880-kentän järjestysnumero (-01 jne.)
-	* Esim. 880 14 ‡6 260-02/(N ‡a Ɇɨɫɤɜɚ ‡b ɇɚɬɚɥɢɫ ‡c 1999
 	* muut tiedot (= ei kyrilliset) tallennetaan latinitsalla ”tavallisiin” kenttiin (006-998)
 	* Esim. 650 _7 ‡a muistelmat ‡x runoilijat ‡z Venäjä ‡2 ysa
 
