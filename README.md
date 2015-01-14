@@ -2,7 +2,7 @@
 
 KUVAUS
 
-USEMARCON-ohjelmalla käytettävä konversiosääntö itse luetteloiduille kyrillisille bibliografisille tietueille. Konversio tuottaa tietueisiin ISBD-kuvailusääntöjen mukaiset kentät. Huomaa että Melinda-kirjastojen ei tule käyttää tätä konversiota, vaan suoraan palvelimella toimivaa konversio-ohjelmaa. Tarkemmat ohjeet Linnea2-intrassa: http://www.kansalliskirjasto.fi/kirjastoala/linnea2intra/ohjeita/luettelointi/kyrilliikka.html.
+USEMARCON-ohjelmalla käytettävä konversiosääntö itse luetteloiduille kyrillisille bibliografisille tietueille. Konversio tuottaa tietueisiin ISBD-kuvailusääntöjen mukaiset kentät. Huomaa että Melinda-kirjastojen ei tule käyttää tätä konversiota, vaan suoraan palvelimella toimivaa konversio-ohjelmaa. Tarkemmat ohjeet tiedostossa "konvertointiohje.pdf" ja Linnea2-intrassa: http://www.kansalliskirjasto.fi/kirjastoala/linnea2intra/ohjeita/luettelointi/kyrilliikka.html.
 
 Lisätietoja USEMARCON-ohjelmasta: http://www.nationallibrary.fi/libraries/format/usemarcon.html.
 
