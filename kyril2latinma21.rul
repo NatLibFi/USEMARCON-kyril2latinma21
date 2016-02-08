@@ -1,4 +1,5 @@
 MARC21: kyrilliikka-kentät latinitsa-kenttiin -- 11.11.2013 / Kansalliskirjasto
+Päivitetty: 8.2.2016 TV/KK
 
 000/1-5/ | 000/1-5/            | S
 000/6/ | 000/6/                | S
@@ -105,11 +106,13 @@ FLN         | FLN         | S
 084I1  | 084I1                 | S
 084I2  | 084I2                 | S
 084    | 084                   | S
+
 #if (Not Exists (@100$6)) 
 100I1  | 100I1                 | S
 100I2  | 100I2                 | S
 100    | 100                   | S
 #endif
+
 110I1  | 110I1                 | S
 110I2  | 110I2                 | S
 110    | 110                   | S
@@ -157,6 +160,9 @@ FLN         | FLN         | S
 260I1  | 260I1                 | S
 260I2  | 260I2                 | S
 260    | 260                   | S
+264(new)I1  | 264(new)I1       | S
+264(newest)I2  | 264(newest)I2 | S
+264(newest)    | 264(newest)   | S
 300I1  | 300I1                 | S
 300I2  | 300I2                 | S
 300    | 300                   | S
@@ -166,13 +172,20 @@ FLN         | FLN         | S
 310I1  | 310I1                 | S
 310I2  | 310I2                 | S
 310    | 310                   | S
-// lisays 13.3.2012 isbd-0
+
 336I1  | 336I1                 | S
 336I2  | 336I2                 | S
 336$a  | 336$a                 | S
+336$b  | 336$b                 | S
+336$2  | 336$2                 | S
 337I1  | 337I1                 | S
 337I2  | 337I2                 | S
 337$a  | 337$a                 | S
+337$b  | 337$b                 | S
+337$2  | 337$2                 | S
+338$a  | 338$a                 | S
+338$b  | 338$b                 | S
+338$2  | 338$2                 | S
 
 351I1  | 351I1                 | S
 351I2  | 351I2                 | S
@@ -195,9 +208,9 @@ FLN         | FLN         | S
 504I2  | 504I2                 | S
 504    | 504                   | S
 // Contents note
-505I1  | 505I1                 | S
-505I2  | 505I2                 | S
-505    | 505                   | S
+505(new)I1  | 505(new)I1       | S
+505(newest)I2  | 505(newest)I2 | S
+505(newest)    | 505(newest)   | S
 // Restriction on access note
 506I1  | 506I1                 | S
 506I2  | 506I2                 | S
@@ -320,6 +333,7 @@ FLN         | FLN         | S
 710I2  | 710I2                 | S
 710    | 710                   | S
 #endif
+
 711I1  | 711I1                 | S
 711I2  | 711I2                 | S
 711    | 711                   | S
@@ -534,6 +548,9 @@ E90$v  | 490$v		| S
 880I2  | 505(newest)I2	| If (@880/3-6/='505-') Then S
 880$a  | 505(newest)$6	| If (@880/3-6/='505-') Then '880-' + @880/7-8/
 880$a  | 505(newest)$a	| If (@880/3-6/='505-') Then Table ('kyril2latinma21.tbl')
+880$g  | 505(newest)$g	| If (@880/3-6/='505-') Then Table ('kyril2latinma21.tbl')
+880$r  | 505(newest)$r	| If (@880/3-6/='505-') Then Table ('kyril2latinma21.tbl')
+880$t  | 505(newest)$t	| If (@880/3-6/='505-') Then Table ('kyril2latinma21.tbl')
 880$u  | 505(newest)$u	| If (@880/3-6/='505-') Then Table ('kyril2latinma21.tbl')
 
 880I1  | 506(new)I1	| If (@880/3-6/='506-') Then S
@@ -873,7 +890,6 @@ E90$v  | 490$v		| S
 880$2  | 856(newest)$2	| If (@880/3-6/='856-') Then Table ('kyril2latinma21.tbl')
 880$3  | 856(newest)$3	| If (@880/3-6/='856-') Then Table ('kyril2latinma21.tbl')
 
-
 880 | 880	               | S
 880I1  | 880I1	               | S
 880I2  | 880I2	               | S
@@ -900,5 +916,3 @@ E90$v  | 490$v		| S
 940I1  | 940I1                 | S
 940I2  | 940I2                 | S
 940    | 940                   | S
-
-
