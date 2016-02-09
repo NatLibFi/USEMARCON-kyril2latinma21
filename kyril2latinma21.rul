@@ -743,8 +743,8 @@ E90$v  | 490$v		| S
 880I2  | 740(nt)I2	| If (@880/3-6/='740-') Then S
 880$a  | 740(nt)$6	| If (@880/3-6/='740-') Then '880-' + @880/7-8/
 880$a  | 740(nt)$a	| If (@880/3-6/='740-') Then Table ('kyril2latinma21.tbl')
-880$a  | 740(nt)$n(nso)	| If (@880/3-6/='740-') Then Table ('kyril2latinma21.tbl')
-880$a  | 740(nt)$p(nso)	| If (@880/3-6/='740-') Then Table ('kyril2latinma21.tbl')
+880$n  | 740(nt)$n(nso)	| If (@880/3-6/='740-') Then Table ('kyril2latinma21.tbl')
+880$p  | 740(nt)$p(nso)	| If (@880/3-6/='740-') Then Table ('kyril2latinma21.tbl')
 
 880I1  | 760(new)I1	| If (@880/3-6/='760-') Then S
 880I2  | 760(newest)I2	| If (@880/3-6/='760-') Then S
