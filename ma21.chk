@@ -2,19 +2,19 @@ Format checking file
 Generated: 2016-02-08 10:45:49
 
 // Järjestelmäkohtaiset kentät
-FMT_ | I1=_ | I2=_ |
+FMT_ | I1=_ | I2=_ | $a* | $b* | $c* | $d* | $e* | $f* | $g* | $h* | $i* | $j* | $k* | $l* | $m* | $n* |
 
-CAT* | I1=_ | I2=_ |
+CAT* | I1=_ | I2=_ | $a* | $b* | $c* | $d* | $e* | $f* | $g* | $h* | $i* | $j* | $k* | $l* | $m* | $n* |
 
-LOW* | I1=_ | I2=_ |
+LOW* | I1=_ | I2=_ | $a* | $b* | $c* | $d* | $e* | $f* | $g* | $h* | $i* | $j* | $k* | $l* | $m* | $n* |
 
-STA? | I1=_ | I2=_ |
+STA? | I1=_ | I2=_ | $a* | $b* | $c* | $d* | $e* | $f* | $g* | $h* | $i* | $j* | $k* | $l* | $m* | $n* |
 
-DEL? | I1=_ | I2=_ |
+DEL? | I1=_ | I2=_ | $a* | $b* | $c* | $d* | $e* | $f* | $g* | $h* | $i* | $j* | $k* | $l* | $m* | $n* |
 
-OWN* | I1=_ | I2=_ |
+OWN* | I1=_ | I2=_ | $a* | $b* | $c* | $d* | $e* | $f* | $g* | $h* | $i* | $j* | $k* | $l* | $m* | $n* |
 
-SYS* | I1=_ | I2=_ |
+SYS* | I1=_ | I2=_ | $a* | $b* | $c* | $d* | $e* | $f* | $g* | $h* | $i* | $j* | $k* | $l* | $m* | $n* |
 
 // Tietueen kontrollinumero
 001? | I1= | I2= |
