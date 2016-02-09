@@ -2,7 +2,7 @@ Format checking file
 Generated: 2016-02-08 10:45:49
 
 // Järjestelmäkohtaiset kentät
-FMT_ | I1=_ | I2=_ | $a* | $b* | $c* | $d* | $e* | $f* | $g* | $h* | $i* | $j* | $k* | $l* | $m* | $n* |
+FMT_ | I1=_ | I2=_ |
 
 CAT* | I1=_ | I2=_ | $a* | $b* | $c* | $d* | $e* | $f* | $g* | $h* | $i* | $j* | $k* | $l* | $m* | $n* |
 
