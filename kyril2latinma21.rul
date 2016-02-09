@@ -501,7 +501,14 @@ A45    | 245            | S
 880$f  | 260(newest)$f	| If (@880/3-6/='260-') Then Table ('kyril2latinma21.tbl')
 880$g  | 260(newest)$g	| If (@880/3-6/='260-') Then Table ('kyril2latinma21.tbl')
 
-880I1  | 300(new)I1	| If (@880/3-6/='300-') Then S
+880I1  | 264(new)I1	| If (@880/3-6/='264-') Then S
+880I2  | 264(newest)I2	| If (@880/3-6/='264-') Then S
+880$a  | 264(newest)$6	| If (@880/3-6/='264-') Then '880-' + @880/7-8/
+880$a  | 264(newest)$a	| If (@880/3-6/='264-') Then Table ('kyril2latinma21.tbl')
+880$b  | 264(newest)$b	| If (@880/3-6/='264-') Then Table ('kyril2latinma21.tbl')
+880$c  | 264(newest)$c	| If (@880/3-6/='264-') Then Table ('kyril2latinma21.tbl')
+
+880I1  | 300(new)I1	| if (@880/3-6/='300-') Then S
 880I2  | 300(newest)I2	| If (@880/3-6/='300-') Then S
 880$a  | 300(newest)$6	| If (@880/3-6/='300-') Then '880-' + @880/7-8/
 880$a  | 300(newest)$a	| If (@880/3-6/='300-') Then Table ('kyril2latinma21.tbl')
@@ -591,8 +598,6 @@ E90$v  | 490$v		| S
 880I1  | 530(new)I1	| If (@880/3-6/='530-') Then S
 880I2  | 530(newest)I2	| If (@880/3-6/='530-') Then S
 880$a  | 530(newest)$6	| If (@880/3-6/='530-') Then '880-' + @880/7-8/
-880$a  | 530(newest)$a	| If (@880/3-6/='530-') Then Table ('kyril2latinma21.tbl')
-880$u  | 530(newest)$u	| If (@880/3-6/='530-') Then Table ('kyril2latinma21.tbl')
 
 880I1  | 534(new)I1	| If (@880/3-6/='534-') Then S
 880I2  | 534(newest)I2	| If (@880/3-6/='534-') Then S
